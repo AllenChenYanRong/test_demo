@@ -1,0 +1,937 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"resp",
+				"respJson"
+			],
+			[
+				"ST",
+				"STATUS_BAD_REQUEST"
+			],
+			[
+				"S",
+				"STATUS_OK"
+			],
+			[
+				"defaul",
+				"defaultOpPass"
+			],
+			[
+				"ass",
+				"assertEquals"
+			],
+			[
+				"sign",
+				"sign_str"
+			],
+			[
+				"sig",
+				"sign_str"
+			],
+			[
+				"is_val",
+				"is_valid_datetime"
+			],
+			[
+				"oau",
+				"oauthClient"
+			],
+			[
+				"unique",
+				"unique_alias"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 1288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/local/database.php",
+			"settings":
+			{
+				"buffer_size": 824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/app.php",
+			"settings":
+			{
+				"buffer_size": 7139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/start.php",
+			"settings":
+			{
+				"buffer_size": 2359,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/wamp/apps/test_demo",
+		"/D/wamp/apps/test_demo/app",
+		"/D/wamp/apps/test_demo/app/config/local",
+		"/D/wamp/apps/test_demo/app/database",
+		"/D/wamp/apps/test_demo/app/database/migrations",
+		"/D/wamp/apps/test_demo/app/start",
+		"/D/wamp/apps/test_demo/bootstrap",
+		"/D/wamp/apps/test_demo/public"
+	],
+	"file_history":
+	[
+		"/D/wamp/apps/test_demo/public/robots.txt",
+		"/D/wamp/apps/test_demo/app/config/database.php",
+		"/D/wamp/apps/test_demo/server.php",
+		"/D/wamp/apps/test_demo/app/config/local/app.php",
+		"/D/wamp/apps/test_demo/app/start/artisan.php",
+		"/D/wamp/apps/test_demo/app/start/global.php",
+		"/D/wamp/apps/test_demo/app/start/local.php",
+		"/D/wamp/apps/game_management/app/models/BaseModel.php",
+		"/D/wamp/apps/game_management/app/models/Utils/UUID.php",
+		"/D/wamp/apps/game_management/app/models/Operator.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/PlayerController.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/OperatorController.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/GameController.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/PlayerController.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/GameController.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/TransactionController.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/OperatorController.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/TransactionController.php",
+		"/D/wamp/apps/game_management/app/controllers/PubApi/V1/AuthController.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/StatusController.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/StatusController.php",
+		"/D/wamp/apps/game_management/app/tests/AjaxApi/V1/PlayerControllerTest.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/src/Auth/Authenticator.php",
+		"/D/wamp/apps/game_management/app/controllers/ReportController.php",
+		"/D/wamp/apps/game_management/app/models/Player.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/src/Auth/JWTProvider.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/src/Auth/AuthorizationProvider.php",
+		"/D/wamp/apps/game_management/app/config/packages/dingo/api/config.php",
+		"/D/wamp/apps/game_management/readme.md",
+		"/D/wamp/apps/game_management/app/filters.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/ApiBaseController.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/ApiBaseController.php",
+		"/D/wamp/apps/game_management/app/tests/AjaxApi/V1/AjaxAuthTest.php",
+		"/D/wamp/apps/game_management/app/routes.php-tmp",
+		"/D/wamp/apps/game_management/app/tests/TestCase.php",
+		"/D/wamp/apps/game_management/app/tests/Api/V1/OperatorControllerTest.php",
+		"/D/wamp/apps/game_management/app/routes.php",
+		"/D/wamp/apps/game_management/app/controllers/PubApi/V1/ApiBaseController.php",
+		"/D/wamp/apps/game_management/app/tests/V1/AjaxAuthTest.php",
+		"/D/wamp/apps/game_management/app/views/main.php",
+		"/D/wamp/apps/game_management/app/views/login.php",
+		"/D/wamp/apps/game_management/app/models/Utils/Signature.php",
+		"/D/wamp/apps/game_management/app/database/migrations/2015_01_04_165547_create_operators_table.php",
+		"/D/wamp/apps/game_management/.gitignore",
+		"/D/wamp/apps/game_management/app/controllers/PlayerController.php",
+		"/D/wamp/apps/game_management/app/controllers/TransactionController.php",
+		"/D/wamp/apps/game_management/app/controllers/Api/V1/UserController.php",
+		"/D/wamp/apps/game_management/public/ajax/.htaccess",
+		"/D/wamp/apps/game_management/public/lib/.htaccess",
+		"/D/wamp/apps/game_management/public/php/.htaccess",
+		"/D/wamp/apps/game_management/public/.htaccess",
+		"/D/wamp/apps/game_management/composer.json",
+		"/D/wamp/apps/game_management/_ide_helper.php",
+		"/D/wamp/apps/game_management/app/config/app.php",
+		"/D/wamp/apps/game_management/app/controllers/AdminController.php",
+		"/D/wamp/apps/game_management/app/views/dashboard.php",
+		"/D/wamp/apps/game_management/app/database/migrations/2015_01_09_084941_create_admins_table.php",
+		"/D/wamp/apps/game_management/app/database/migrations/2015_01_09_073822_add_email_to_operators.php",
+		"/D/wamp/apps/game_management/app/models/Admin.php",
+		"/D/wamp/apps/game_management/public/ajax/inc/init.php",
+		"/D/wamp/apps/game_management/public/ajax/dashboard.php",
+		"/D/wamp/apps/game_management/public/inc/scripts.php",
+		"/D/wamp/apps/game_management/public/inc/ribbon.php",
+		"/D/wamp/apps/game_management/public/inc/header.php",
+		"/D/wamp/apps/game_management/public/inc/footer.php",
+		"/D/wamp/apps/game_management/app/database/seeds/DatabaseSeeder.php",
+		"/D/wamp/apps/game_management/app/tests/OperatorTest.php",
+		"/D/wamp/apps/game_management/public/login.php",
+		"/D/wamp/apps/game_management/app/config/auth.php",
+		"/D/wamp/apps/game_management/.htaccess",
+		"/D/wamp/apps/game_management/app/admin/inc/init.php",
+		"/D/wamp/apps/game_management/app/start/global.php",
+		"/D/wamp/apps/game_management/app/config/cache.php",
+		"/D/wamp/apps/game_management/app/utils.php",
+		"/D/wamp/apps/game_management/app/config/view.php",
+		"/D/wamp/apps/game_management/app/config/services.php",
+		"/D/wamp/apps/game_management/server.php",
+		"/D/wamp/apps/game_management/public/public.php",
+		"/D/wamp/apps/game_management/public/index.php",
+		"/D/wamp/apps/game_management/app/controllers/AuthController.php",
+		"/D/wamp/apps/game_management/public/inc/config.ui.php",
+		"/D/wamp/apps/game_management/public/inc/init.php",
+		"/D/wamp/apps/game_management/app/controllers/BaseController.php",
+		"/D/wamp/apps/game_management/app/controllers/OAuthController.php",
+		"/D/wamp/apps/game_management/app/controllers/UserController.php",
+		"/D/wamp/apps/game_management/app/models/OauthClient.php",
+		"/D/wamp/apps/game_management/app/models/User.php",
+		"/D/wamp/apps/game_management/app/controllers/AjaxApi/V1/UserController.php",
+		"/D/wamp/apps/game_management/app/database/migrations/2015_01_07_115627_add_username_to_operators.php",
+		"/D/wamp/apps/game_management/app/tests/UtilsTest.php",
+		"/D/wamp/apps/game_management/app/config/testing/database.php",
+		"/D/wamp/apps/game_management/app/config/local/database.php",
+		"/D/wamp/apps/game_management/app/config/packages/tymon/jwt-auth/config.php",
+		"/D/wamp/apps/game_management/vendor/tymon/jwt-auth/src/Tymon/JWTAuth/JWTAuth.php",
+		"/D/wamp/apps/game_management/app/config/local/app.php",
+		"/D/wamp/apps/game_management/app/config/packages/lucadegasperi/oauth2-server-laravel/oauth2.php",
+		"/D/wamp/apps/game_management/app/tests/ModelTestCase.php",
+		"/D/wamp/apps/game_management/phpunit.xml",
+		"/D/wamp/apps/game_management/app/database/migrations/2014_12_25_051709_create_oauth_clients_table.php",
+		"/D/wamp/apps/game_management/app/config/database.php",
+		"/D/wamp/apps/game_management/bootstrap/paths.php",
+		"/D/wamp/apps/game_management/bootstrap/start.php",
+		"/D/wamp/apps/game_management/app/tests/ExampleTest.php",
+		"/D/wamp/apps/game_management/app/start/local.php",
+		"/D/wamp/apps/game_management/app/start/artisan.php",
+		"/D/wamp/apps/game_management/public/js/plugin/bootstrapvalidator/language/bg_BG.min.js",
+		"/D/wamp/apps/game_management/vendor/league/oauth2-server/src/AuthorizationServer.php",
+		"/D/wamp/apps/game_management/vendor/league/oauth2-server/src/Grant/ClientCredentialsGrant.php",
+		"/D/wamp/apps/game_management/vendor/lucadegasperi/oauth2-server-laravel/src/Authorizer.php",
+		"/D/wamp/apps/game_management/vendor/league/oauth2-server/src/Grant/PasswordGrant.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/src/Routing/Router.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/src/Auth/LeagueOAuth2Provider.php",
+		"/D/wamp/apps/game_management/composer.lock",
+		"/D/wamp/apps/game_management/vendor/league/oauth2-server/src/ResourceServer.php",
+		"/D/wamp/apps/game_management/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/src/Http/Filter/AuthFilter.php",
+		"/D/wamp/apps/game_management/doc/curl.txt",
+		"/D/wamp/apps/game_management/vendor/dingo/api/tests/Auth/LeagueOAuth2ProviderTest.php",
+		"/D/wamp/apps/game_management/vendor/dingo/api/tests/Auth/AuthenticatorTest.php",
+		"/D/wamp/apps/game_management/public/lib/config.php",
+		"/D/wamp/apps/game_management/public/ajax/datatables.php",
+		"/D/wamp/apps/game_management/app/views/user/search.php",
+		"/D/wamp/apps/game_management/app/config/remote.php",
+		"/D/wamp/apps/game_management/app/config/session.php",
+		"/D/wamp/apps/game_management/vendor/laravel/framework/src/Illuminate/Console/Application.php",
+		"/D/wamp/apps/game_management/app/controllers/HomeController.php",
+		"/D/wamp/apps/game_management/public/lib/lang/lang_en.json",
+		"/D/wamp/apps/game_management/public/lib/lang/lang_zh-CN.json"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\wamp\\apps\\game_management\\*.php",
+			"D:\\wamp\\apps\\game_management"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"?php",
+			"self",
+			"UUID",
+			"oauthclient",
+			"oauthclients",
+			"oauth_clients",
+			"owner",
+			"issuer",
+			"owner_type",
+			"oauth",
+			"'Authorization'",
+			"private_headers",
+			"'authorization'",
+			"\"authorization\"",
+			"authorization",
+			"validateAuthorizationHeader",
+			"clientResolver",
+			"oauth",
+			"local"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/config/local/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 80.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bootstrap/start.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								879
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "test_demo.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 394.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
